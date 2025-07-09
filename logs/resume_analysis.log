@@ -1,0 +1,356 @@
+2025-07-09 08:27:32,514 - INFO - [2025-07-09 08:27:32] \U0001f4e4 Received file: HIM.pdf
+2025-07-09 08:27:32,921 - INFO - \U0001f4dd Extracted 33 lines from resume
+2025-07-09 08:27:35,415 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Model Developer', 'NLP Engineer']
+2025-07-09 08:28:16,837 - INFO - \U0001f310 Crawled 4 jobs for keyword 'Machine Learning Engineer'
+2025-07-09 08:28:16,842 - ERROR - \u274c Error during resume processing: 'title'
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 90, in analyze_resume
+    writer.writerow({"Title": job["title"], "Link": job["link"]})
+KeyError: 'title'
+2025-07-09 08:30:41,749 - INFO - [2025-07-09 08:30:41] \U0001f4e4 Received file: HIM.pdf
+2025-07-09 08:30:42,221 - INFO - \U0001f4dd Extracted 33 lines from resume
+2025-07-09 08:30:44,641 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Analyst', 'NLP Engineer', 'AI Developer']
+2025-07-09 08:31:15,277 - INFO - \U0001f310 Crawled 4 jobs for keyword 'Machine Learning Engineer'
+2025-07-09 08:31:15,279 - ERROR - \u274c Error during resume processing: 'title'
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 90, in analyze_resume
+    writer.writerow({"Title": job["title"], "Link": job["link"]})
+KeyError: 'title'
+2025-07-09 08:35:33,148 - INFO - \U0001f4e4 Received file: HIM.pdf
+2025-07-09 08:35:35,349 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 08:36:03,497 - INFO - \U0001f50e Crawling jobs for: Machine Learning Engineer
+2025-07-09 08:36:34,395 - ERROR - \u274c Error in /scrape-jobs
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 93, in scrape_jobs
+    writer.writerow({"Title": job["title"], "Link": job["link"]})
+KeyError: 'title'
+2025-07-09 08:40:43,788 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:40:49,210 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Analyst', 'AI/ML Developer', 'NLP Engineer']
+2025-07-09 08:40:55,022 - INFO - \U0001f50e Crawling jobs for: Machine Learning Engineer
+2025-07-09 08:44:09,639 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:44:12,017 - INFO - \U0001f50d Extracted job titles: []
+2025-07-09 08:44:35,722 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:44:37,560 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Analyst', 'NLP Engineer', 'AI Researcher']
+2025-07-09 08:45:14,006 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:45:16,042 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 08:45:24,233 - INFO - \U0001f50e Crawling jobs for: Machine Learning Engineer
+2025-07-09 08:49:51,870 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:49:54,380 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'NLP Engineer', 'Data Scientist', 'AI/ML Model Developer']
+2025-07-09 08:49:59,175 - INFO - \U0001f50e Crawling jobs for: Machine Learning Engineer
+2025-07-09 08:51:34,395 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:51:36,371 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 08:51:45,443 - INFO - \U0001f50e Crawling jobs for: AI Engineer
+2025-07-09 08:52:27,565 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 08:52:27,565 - ERROR - \u274c Error in /auto-apply
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 107, in trigger_auto_apply
+    auto_apply(max_jobs=1)
+TypeError: auto_apply() got an unexpected keyword argument 'max_jobs'
+2025-07-09 08:58:31,059 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:58:32,729 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 08:58:58,393 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 08:58:59,353 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 09:04:40,920 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:04:43,485 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 09:06:56,468 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:06:58,645 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 09:08:41,036 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:08:44,460 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 09:08:53,965 - INFO - \U0001f50e Crawling jobs for keyword: NLP Engineer
+2025-07-09 09:09:36,887 - INFO - \U0001f916 Starting auto-apply process...
+2025-07-09 09:09:36,887 - ERROR - \u274c Error in /auto-apply
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 114, in trigger_auto_apply
+    auto_apply(max_jobs=1)
+TypeError: auto_apply() got an unexpected keyword argument 'max_jobs'
+2025-07-09 09:14:10,272 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:14:13,164 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 09:14:23,491 - INFO - \U0001f50e Crawling jobs for keyword: Computer Vision Engineer
+2025-07-09 09:15:06,776 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 09:15:08,704 - ERROR - \u274c Error in /auto-apply
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 114, in trigger_auto_apply
+    auto_apply(max_jobs=1)  # no args
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\auto_apply_internshala.py", line 56, in auto_apply
+    with open("../internshala_internships.csv", newline='', encoding="utf-8") as file:
+FileNotFoundError: [Errno 2] No such file or directory: '../internshala_internships.csv'
+
+2025-07-09 09:32:25,655 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:32:27,813 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 09:32:35,569 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 09:33:31,925 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 09:34:42,336 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 09:37:54,724 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:37:58,260 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 09:38:09,432 - INFO - \U0001f50e Crawling jobs for keyword: AI Engineer
+2025-07-09 09:38:55,895 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 09:40:09,011 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 09:45:31,305 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:45:33,777 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 09:45:37,357 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:45:38,545 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Developer', 'NLP Engineer']
+2025-07-09 09:45:45,469 - INFO - \U0001f50e Crawling jobs for keyword: AI/ML Developer
+2025-07-09 09:48:05,016 - ERROR - \u274c No jobs found for keyword: AI/ML Developer
+2025-07-09 09:51:49,270 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 09:51:52,996 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 09:52:01,627 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:03:52,874 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:03:55,759 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 10:04:03,781 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:06:19,421 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:06:21,736 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 10:06:29,010 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:07:40,461 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FBEFC0A90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9671d0e30152f849be937fe239b5f2de/elements
+2025-07-09 10:07:44,518 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FBEFC0A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9671d0e30152f849be937fe239b5f2de/elements
+2025-07-09 10:07:48,611 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020FBEFC0D90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/9671d0e30152f849be937fe239b5f2de/elements
+2025-07-09 10:08:10,690 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:08:13,073 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 10:08:22,994 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:11:16,140 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:11:18,735 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 10:11:25,135 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:21:27,790 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:21:30,871 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 10:21:34,675 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 10:21:36,310 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 10:21:44,790 - INFO - \U0001f50e Crawling jobs for keyword: Data Scientist
+2025-07-09 10:23:47,685 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 10:24:55,303 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 10:26:39,238 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 10:28:02,482 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 10:30:31,249 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 10:31:41,127 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 10:34:23,809 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 10:35:35,485 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 10:41:51,531 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 10:49:09,980 - ERROR - \u274c Error in /auto-apply
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 115, in trigger_auto_apply
+    success_count = auto_apply()  # Update auto_apply to return number of successful applications
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\auto_apply_internshala.py", line 160, in auto_apply
+    driver.get(internship_link)
+  File "C:\Anaconda\envs\chatbotenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 479, in get
+    self.execute(Command.GET, {"url": url})
+  File "C:\Anaconda\envs\chatbotenv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 454, in execute
+    self.error_handler.check_response(response)
+  File "C:\Anaconda\envs\chatbotenv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6368b6f75+76917]
+	GetHandleVerifier [0x0x7ff6368b6fd0+77008]
+	(No symbol) [0x0x7ff636669dea]
+	(No symbol) [0x0x7ff636642191]
+	(No symbol) [0x0x7ff6366ef83e]
+	(No symbol) [0x0x7ff63670ff72]
+	(No symbol) [0x0x7ff6366e8243]
+	(No symbol) [0x0x7ff6366b1431]
+	(No symbol) [0x0x7ff6366b21c3]
+	GetHandleVerifier [0x0x7ff636b8d2ad+3051437]
+	GetHandleVerifier [0x0x7ff636b87903+3028483]
+	GetHandleVerifier [0x0x7ff636ba589d+3151261]
+	GetHandleVerifier [0x0x7ff6368d183e+185662]
+	GetHandleVerifier [0x0x7ff6368d96ff+218111]
+	GetHandleVerifier [0x0x7ff6368bfaf4+112628]
+	GetHandleVerifier [0x0x7ff6368bfca9+113065]
+	GetHandleVerifier [0x0x7ff6368a6c78+10616]
+	BaseThreadInitThunk [0x0x7ffb4da4e8d7+23]
+	RtlUserThreadStart [0x0x7ffb4f03c34c+44]
+
+2025-07-09 11:12:39,604 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:12:41,420 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 11:12:51,396 - INFO - \U0001f50e Crawling jobs and internships for keyword: Data Scientist
+2025-07-09 11:17:13,842 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:17:15,573 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 11:25:39,767 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000022E3F14B2B0>: Failed to establish a new connection: [WinError 10051] A socket operation was attempted to an unreachable network')': /v1/chat/completions
+2025-07-09 11:25:40,004 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F14B8E0>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:40,911 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BC220>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:40,911 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BC400>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:42,639 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BCA60>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:42,643 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F14BDF0>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:46,205 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BCF10>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:46,205 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BD0F0>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:53,628 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BD750>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:25:53,636 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BD930>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:26:00,829 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BDF90>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:26:00,846 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022E3F1BE170>: Failed to resolve 'api.together.xyz' ([Errno 11001] getaddrinfo failed)")': /v1/chat/completions
+2025-07-09 11:26:05,248 - ERROR - \u274c Error: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=138.0.7204.97)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6368b6f75+76917]
+	GetHandleVerifier [0x0x7ff6368b6fd0+77008]
+	(No symbol) [0x0x7ff636669dea]
+	(No symbol) [0x0x7ff636666ba5]
+	(No symbol) [0x0x7ff636657879]
+	(No symbol) [0x0x7ff636659631]
+	(No symbol) [0x0x7ff636657b96]
+	(No symbol) [0x0x7ff6366575f6]
+	(No symbol) [0x0x7ff6366572ba]
+	(No symbol) [0x0x7ff636654e8b]
+	(No symbol) [0x0x7ff63665570c]
+	(No symbol) [0x0x7ff63666dd9a]
+	(No symbol) [0x0x7ff63671143e]
+	(No symbol) [0x0x7ff6366e846a]
+	(No symbol) [0x0x7ff63671065c]
+	(No symbol) [0x0x7ff6366e8243]
+	(No symbol) [0x0x7ff6366b1431]
+	(No symbol) [0x0x7ff6366b21c3]
+	GetHandleVerifier [0x0x7ff636b8d2ad+3051437]
+	GetHandleVerifier [0x0x7ff636b87903+3028483]
+	GetHandleVerifier [0x0x7ff636ba589d+3151261]
+	GetHandleVerifier [0x0x7ff6368d183e+185662]
+	GetHandleVerifier [0x0x7ff6368d96ff+218111]
+	GetHandleVerifier [0x0x7ff6368bfaf4+112628]
+	GetHandleVerifier [0x0x7ff6368bfca9+113065]
+	GetHandleVerifier [0x0x7ff6368a6c78+10616]
+	BaseThreadInitThunk [0x0x7ffb4da4e8d7+23]
+	RtlUserThreadStart [0x0x7ffb4f03c34c+44]
+
+2025-07-09 11:30:24,490 - WARNING - \u26a0\ufe0f No internships found after scraping.
+2025-07-09 11:32:49,285 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:32:51,596 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 11:33:31,041 - WARNING - \u26a0\ufe0f No internships found after scraping.
+2025-07-09 11:34:20,972 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:34:23,285 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Developer', 'NLP Engineer']
+2025-07-09 11:35:04,742 - WARNING - \u26a0\ufe0f No internships found after scraping.
+2025-07-09 11:39:34,433 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:39:36,257 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 11:41:26,541 - INFO - \u2705 Returning 9 internships.
+2025-07-09 11:54:38,403 - INFO - \u2705 Returning 9 internships.
+2025-07-09 11:55:55,018 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 11:55:56,528 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Researcher', 'NLP Engineer']
+2025-07-09 11:56:35,526 - WARNING - \u26a0\ufe0f No internships found after scraping.
+2025-07-09 11:59:23,507 - INFO - \u2705 Returning 1 internships.
+2025-07-09 11:59:31,539 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:00:27,585 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:01:07,566 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 12:01:09,056 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:01:12,684 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 12:01:13,714 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI/ML Developer', 'NLP Engineer']
+2025-07-09 12:02:42,452 - INFO - \u2705 Returning 5 internships.
+2025-07-09 12:02:50,574 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:07:21,414 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:12:55,933 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:13:55,008 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000218B3C708B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf51502c5f2e9256d615144015cda006/element
+2025-07-09 12:13:59,077 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000218B3C70EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf51502c5f2e9256d615144015cda006/element
+2025-07-09 12:14:03,121 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000218B3C71180>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bf51502c5f2e9256d615144015cda006/element
+2025-07-09 12:16:30,883 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:21:22,717 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:27:54,235 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:32:21,772 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 12:32:26,924 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 12:33:17,089 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:33:56,044 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:37:08,887 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:38:34,391 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:43:00,975 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D22C80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75/element
+2025-07-09 12:43:05,022 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D23160>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75/element
+2025-07-09 12:43:09,091 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D23610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75/element
+2025-07-09 12:43:20,223 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D238B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75
+2025-07-09 12:43:24,304 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D23B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75
+2025-07-09 12:43:28,386 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000275D2D23BB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/512f1d75e179c7d0782024ab916c6c75
+2025-07-09 12:43:32,429 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:50:37,655 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 12:50:39,751 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 12:51:46,234 - INFO - \u2705 Returning 5 internships.
+2025-07-09 12:52:36,066 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 12:52:38,235 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Researcher', 'NLP Engineer']
+2025-07-09 12:53:46,566 - INFO - \u2705 Returning 5 internships.
+2025-07-09 12:53:53,131 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 12:55:47,172 - WARNING - \u26a0\ufe0f Auto-apply did not apply to any internships.
+2025-07-09 12:57:34,035 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:35,194 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:57:39,177 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:40,273 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:57:43,651 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:44,221 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:57:47,586 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:48,179 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:57:51,479 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:52,294 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:57:55,899 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:57:56,694 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:58:00,079 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:58:00,612 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:58:03,489 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 12:58:04,020 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:58:50,898 - INFO - \U0001f4e4 Received file: MUHMMAD SHABAN RESUME (3).pdf
+2025-07-09 12:58:52,443 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:58:56,058 - INFO - \U0001f4e4 Received file: MUHMMAD SHABAN RESUME (3).pdf
+2025-07-09 12:58:57,004 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 12:59:00,387 - INFO - \U0001f4e4 Received file: MUHMMAD SHABAN RESUME (3).pdf
+2025-07-09 12:59:01,721 - ERROR - \u274c No job titles could be extracted from the resume.
+2025-07-09 13:08:20,122 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:08:20,363 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 29, in extract_jobs_from_resume
+    response = client.Chat.completions.create(
+AttributeError: 'Together' object has no attribute 'Chat'. Did you mean: 'chat'?
+2025-07-09 13:08:23,954 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:08:24,030 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 29, in extract_jobs_from_resume
+    response = client.Chat.completions.create(
+AttributeError: 'Together' object has no attribute 'Chat'. Did you mean: 'chat'?
+2025-07-09 13:08:41,261 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:08:43,022 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 42, in extract_jobs_from_resume
+    raise ValueError("\u274c Invalid or empty response from model.")
+ValueError: \u274c Invalid or empty response from model.
+2025-07-09 13:08:47,494 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:08:54,488 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 42, in extract_jobs_from_resume
+    raise ValueError("\u274c Invalid or empty response from model.")
+ValueError: \u274c Invalid or empty response from model.
+2025-07-09 13:08:57,937 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:09:00,386 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 42, in extract_jobs_from_resume
+    raise ValueError("\u274c Invalid or empty response from model.")
+ValueError: \u274c Invalid or empty response from model.
+2025-07-09 13:09:03,044 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 13:09:04,268 - ERROR - \u274c Error in /analyze-resume
+Traceback (most recent call last):
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\main.py", line 68, in analyze_resume
+    job_titles = extract_jobs_from_resume(cleaned_text)
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 61, in extract_jobs_from_resume
+    raise e
+  File "C:\Users\Muhmmad shaban\Desktop\ai-job-matcher\ai-job-matcher\backend\resume_parser.py", line 42, in extract_jobs_from_resume
+    raise ValueError("\u274c Invalid or empty response from model.")
+ValueError: \u274c Invalid or empty response from model.
+2025-07-09 13:10:44,121 - INFO - \U0001f4e4 Received file: PulkitGoyal_Resume (1).docx
+2025-07-09 13:10:47,105 - INFO - \U0001f50d Extracted job titles: ['Machine Learning Engineer', 'Computer Vision Engineer', 'Data Scientist', 'AI Engineer', 'NLP Engineer']
+2025-07-09 15:11:46,550 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 15:11:49,980 - INFO - \U0001f50d Extracted job titles: ['Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Full Stack Developer', 'Software Engineer']
+2025-07-09 15:12:20,243 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 15:12:23,523 - INFO - \U0001f50d Extracted job titles: ['Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Frontend Developer', 'Software Engineer (Entry-Level)']
+2025-07-09 15:13:45,197 - INFO - \u2705 Returning 5 internships.
+2025-07-09 15:14:03,235 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 15:14:57,553 - INFO - \u2705 Auto-apply completed. Applied to 1 internships.
+2025-07-09 15:41:13,279 - INFO - \u2705 Returning 5 internships.
+2025-07-09 16:09:31,388 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 16:10:20,684 - INFO - \u2705 Auto-apply completed. Applied to 1 internship(s).

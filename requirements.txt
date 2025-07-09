@@ -1,7 +1,7 @@
 fastapi
 uvicorn
-streamlit
-together
-beautifulsoup4
-requests
+python-dotenv
 selenium
+together
+streamlit
+requests

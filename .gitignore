@@ -1,0 +1,8 @@
+.env
+backend\__pycache__
+backend\__pycache__
+screenshots\
+logs\resume_analysis.log
+log.txt
+submitted_log.txt
+submitted_details.json
