@@ -354,3 +354,18 @@ ValueError: \u274c Invalid or empty response from model.
 2025-07-09 15:41:13,279 - INFO - \u2705 Returning 5 internships.
 2025-07-09 16:09:31,388 - INFO - \U0001f916 Starting auto-apply...
 2025-07-09 16:10:20,684 - INFO - \u2705 Auto-apply completed. Applied to 1 internship(s).
+2025-07-09 22:22:20,997 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 22:22:26,250 - INFO - \U0001f50d Extracted job titles: ['Frontend Developer', 'Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Software Developer Intern']
+2025-07-09 22:23:39,238 - INFO - \u2705 Returning 5 internships.
+2025-07-09 22:32:38,731 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 22:32:43,683 - INFO - \U0001f50d Extracted job titles: ['Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Frontend Developer', 'Software Engineer (Entry-Level)']
+2025-07-09 22:35:26,233 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 22:35:28,708 - INFO - \U0001f50d Extracted job titles: ['Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Frontend Developer', 'Software Engineer (Entry-Level)']
+2025-07-09 22:36:40,062 - INFO - \u2705 Returning 5 internships.
+2025-07-09 22:36:42,099 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 22:37:34,171 - INFO - \u2705 Auto-apply completed. Applied to 1 internship(s).
+2025-07-09 23:11:58,832 - INFO - \U0001f4e4 Received file: Pranav Pandey Cv (1).docx
+2025-07-09 23:12:00,542 - INFO - \U0001f50d Extracted job titles: ['Frontend Developer', 'Python Developer', 'Web Developer', 'Machine Learning Enthusiast', 'Software Developer']
+2025-07-09 23:12:55,352 - INFO - \u2705 Returning 3 internships.
+2025-07-09 23:12:57,395 - INFO - \U0001f916 Starting auto-apply...
+2025-07-09 23:13:44,325 - INFO - \u2705 Auto-apply completed. Applied to 1 internship(s).

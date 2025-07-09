@@ -186,5 +186,5 @@ def crawl_internshala_by_type(keyword: str, limit: int, type_: str):
 
 # === Final Master Function ===
 def fetch_both_internships_and_jobs(keyword: str):
-    crawl_internshala_by_type(keyword=keyword, limit=5, type_="internship")
-    crawl_internshala_by_type(keyword=keyword, limit=5, type_="job")
+    crawl_internshala_by_type(keyword=keyword, limit=3, type_="internship")
+    crawl_internshala_by_type(keyword=keyword, limit=3, type_="job")
